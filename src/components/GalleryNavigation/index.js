@@ -1,4 +1,5 @@
-function GalleryNavigation () {
+function GalleryNavigation (props) {
+  console.log(props.galleries)
   return (
     <h1>Galleries</h1>
   )
